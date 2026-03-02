@@ -1,13 +1,13 @@
 :root {
-  --bg: #eef4f0;
+  --bg: #e8eff9;
   --card: #ffffff;
-  --ink: #16251f;
-  --muted: #56665e;
-  --line: #cddbd3;
-  --brand: #154a37;
-  --brand-soft: #dfece5;
-  --accent: #0f3729;
-  --shadow: 0 10px 30px rgba(12, 39, 29, 0.14);
+  --ink: rgb(23, 28, 44);
+  --muted: #51637a;
+  --line: #c7d5e6;
+  --brand: rgb(57, 77, 111);
+  --brand-soft: #e1ebf8;
+  --accent: rgb(23, 28, 44);
+  --shadow: 0 10px 30px rgba(8, 27, 54, 0.16);
 }
 
 * {
@@ -20,7 +20,7 @@ body {
   color: var(--ink);
   background:
     radial-gradient(circle at 12% 10%, #ffffff 0%, rgba(255, 255, 255, 0) 45%),
-    linear-gradient(160deg, #e7efe9 0%, #f4f8f5 45%, #e2ebe5 100%);
+    linear-gradient(160deg, #dbe7f7 0%, #eef4fb 45%, #d5e1f2 100%);
   line-height: 1.55;
 }
 
@@ -41,10 +41,10 @@ body {
   flex-wrap: wrap;
   gap: 8px;
   background: rgba(255, 255, 255, 0.72);
-  border: 1px solid #c5d5cb;
+  border: 1px solid #bfd0e6;
   border-radius: 999px;
   padding: 8px;
-  box-shadow: 0 8px 24px rgba(16, 44, 34, 0.08);
+  box-shadow: 0 8px 24px rgba(18, 44, 78, 0.1);
 }
 
 .lang-item {
@@ -61,8 +61,8 @@ body {
 }
 
 .lang-item:hover {
-  border-color: #b8cfc2;
-  background: #ebf3ee;
+  border-color: #aec5df;
+  background: #e8f0fb;
 }
 
 .lang-item.is-active {
@@ -80,7 +80,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #07271b 0%, #124634 60%, #1b5d45 100%);
+  background: linear-gradient(135deg, rgb(23, 28, 44) 0%, rgb(57, 77, 111) 100%);
   border-radius: 22px;
   color: #fff;
   padding: 36px;
@@ -109,7 +109,7 @@ body {
   border-radius: 18px;
   border: 1px solid rgba(255, 255, 255, 0.35);
   overflow: hidden;
-  box-shadow: 0 16px 36px rgba(6, 28, 21, 0.38);
+  box-shadow: 0 16px 36px rgba(5, 19, 43, 0.42);
   background: rgba(255, 255, 255, 0.08);
 }
 
@@ -179,7 +179,7 @@ body {
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 18px;
-  box-shadow: 0 8px 24px rgba(16, 44, 34, 0.08);
+  box-shadow: 0 8px 24px rgba(15, 41, 74, 0.09);
   padding: 24px;
 }
 
@@ -198,7 +198,7 @@ h2 {
 .tag {
   background: var(--brand-soft);
   color: var(--accent);
-  border: 1px solid #bbd2c4;
+  border: 1px solid #b3c7e1;
   border-radius: 999px;
   padding: 6px 12px;
   font-size: 0.88rem;
@@ -266,8 +266,8 @@ li {
 }
 
 .kpi-item {
-  background: #eef5f0;
-  border: 1px solid #cadccf;
+  background: #eaf1fb;
+  border: 1px solid #c4d4e7;
   border-radius: 12px;
   padding: 12px;
 }
@@ -304,7 +304,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(170deg, #f7fbf8, #e7f1eb);
+  background: linear-gradient(170deg, #f4f8fd, #e4ecf8);
 }
 
 .showcase-copy p {

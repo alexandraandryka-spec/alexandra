@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="61mm" viewBox="0 0 910 610" role="img" aria-labelledby="title desc">
+  <title id="title">Wizytowka przod - Aleksandra Andryka</title>
+  <desc id="desc">Format 85x55 mm ze spadami 3 mm. Elegancki projekt frontu wizytowki.</desc>
+
+  <defs>
+    <linearGradient id="bgFront" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eaf1fa"/>
+    </linearGradient>
+    <linearGradient id="accentBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f4f8a"/>
+      <stop offset="100%" stop-color="#0b66c3"/>
+    </linearGradient>
+    <clipPath id="trimMask">
+      <rect x="30" y="30" width="850" height="550" rx="24" ry="24"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="910" height="610" fill="url(#bgFront)"/>
+
+  <g clip-path="url(#trimMask)">
+    <rect x="0" y="0" width="180" height="610" fill="url(#accentBand)"/>
+    <circle cx="90" cy="520" r="230" fill="#ffffff" opacity="0.08"/>
+  </g>
+
+  <text x="58" y="112" fill="#ffffff" font-family="Cormorant Garamond, Georgia, serif" font-size="56" font-weight="600">AA</text>
+
+  <text x="220" y="152" fill="#14263d" font-family="Cormorant Garamond, Georgia, serif" font-size="60" font-weight="600">Aleksandra</text>
+  <text x="220" y="208" fill="#14263d" font-family="Cormorant Garamond, Georgia, serif" font-size="60" font-weight="600">Andryka</text>
+
+  <text x="220" y="255" fill="#0f4f8a" font-family="Manrope, Avenir Next, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="0.3">Office Manager | Regionalny Manager Sprzedazy</text>
+  <text x="220" y="287" fill="#41556d" font-family="Manrope, Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0.2">Hospitality | B2B/B2C</text>
+
+  <line x1="220" y1="322" x2="800" y2="322" stroke="#0b66c3" stroke-width="2.5"/>
+
+  <text x="220" y="370" fill="#26374e" font-family="Manrope, Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="600">tel. +48 666 605 649</text>
+  <text x="220" y="406" fill="#26374e" font-family="Manrope, Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="600">alexandra.andryka@gmail.com</text>
+  <text x="220" y="442" fill="#26374e" font-family="Manrope, Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="600">Piaseczno</text>
+  <text x="220" y="478" fill="#26374e" font-family="Manrope, Avenir Next, Helvetica, Arial, sans-serif" font-size="22" font-weight="600">aleksandra.andryka.eu</text>
+
+  <text x="220" y="535" fill="#5e6a7b" font-family="Manrope, Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="500">Bleed: 3 mm | Trim: 85x55 mm</text>
+</svg>
