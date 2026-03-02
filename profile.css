@@ -421,7 +421,7 @@ li {
   margin: 0;
 }
 
-.showcase-copy .linkedin-cta {
+.linkedin-cta {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -437,13 +437,13 @@ li {
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
-.showcase-copy .linkedin-cta:hover {
+.linkedin-cta:hover {
   background: #edf3fb;
   border-color: #7394bf;
   transform: translateY(-1px);
 }
 
-.showcase-copy .linkedin-cta-icon {
+.linkedin-cta-icon {
   width: 24px;
   height: 24px;
   border-radius: 6px;
@@ -454,6 +454,10 @@ li {
   font-size: 0.85rem;
   font-weight: 800;
   line-height: 1;
+}
+
+.hero .linkedin-cta {
+  margin-top: 12px;
 }
 
 footer {
