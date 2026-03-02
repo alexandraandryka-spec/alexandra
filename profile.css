@@ -339,6 +339,11 @@ h2 {
   padding: 12px;
 }
 
+.cfi-portfolio-box--top {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
 .cfi-portfolio-box--with-logo {
   min-height: 0;
 }
