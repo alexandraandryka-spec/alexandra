@@ -151,6 +151,24 @@ body {
   margin: 0;
 }
 
+.article-link-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.article-link-cover {
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 24px rgba(15, 41, 74, 0.12);
+  background: #fff;
+}
+
 .lang-nav {
   display: inline-flex;
   flex-wrap: wrap;
@@ -707,5 +725,9 @@ footer {
 
   .subpage-grid {
     grid-template-columns: 1fr;
+  }
+
+  .article-link-row {
+    align-items: flex-start;
   }
 }
