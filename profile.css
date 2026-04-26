@@ -73,6 +73,14 @@ body {
   color: #fff;
 }
 
+.intro-bubbles {
+  margin-bottom: 16px;
+}
+
+.intro-bubbles h2 {
+  margin-bottom: 12px;
+}
+
 .subpage-hero {
   padding: 28px 32px;
 }
