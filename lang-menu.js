@@ -20,6 +20,14 @@
     var items = nav.querySelectorAll("a.lang-item");
     if (!items.length) return;
 
+    var currentPage = window.location.pathname.split("/").pop();
+    if (currentPage && currentPage !== "index.html") {
+      for (var linkIndex = 0; linkIndex < items.length; linkIndex += 1) {
+        var href = items[linkIndex].getAttribute("href");
+        if (href && href.slice(-1) === "/") items[linkIndex].setAttribute("href", href + currentPage);
+      }
+    }
+
     var active = nav.querySelector("a.lang-item.is-active") || items[0];
 
     var toggle = document.createElement("button");
